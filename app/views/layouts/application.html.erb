@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>BikeSpace.com</title>
+  <%= stylesheet_link_tag    "application", :media => "all" %>
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
+</head>
+<body style="margin:0px; padding:0px;">
+<div id="header" style="background-color:#000; color:#fff; width:100%; height:60px; padding-left:auto; padding-right:auto;">
+	<div id="header_content">BikeSpace.com</div>
+</div>
+
+
+<%= yield %>
+
+</body>
+</html>
